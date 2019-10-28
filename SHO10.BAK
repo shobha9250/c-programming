@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{clrscr();
+ int i,j,k,n,m,o;
+	for(i=1;i<=3;i++)
+	{
+	 n=i*100;
+		for(j=1;j<=3;j++)
+		 {if(i==j)
+		  continue;
+
+		 m=n+j*10;
+			for(k=1;k<=3;k++)
+			 {
+			 if(k==i||k==j)
+			  continue;
+			 o=m+k;
+			  printf("%d\t",o);
+			  }
+		 }
+
+	 }
+getch();
+return 0;
+}

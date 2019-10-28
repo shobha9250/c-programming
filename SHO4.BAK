@@ -1,0 +1,21 @@
+/*measurement*/
+#include< stdio.h>
+#include<conio.h>
+int main()
+{
+int l,b,r,arr,pr;
+float pc,arc;
+printf("enter length and breadth and radius");
+scanf("%d%d%d",&l,&b,&r);
+pr=2*(l+b);
+arr=l*b;
+pc=2*3.14*r;
+arc=3.14*r*r;
+printf("perimeter of rectangle=%d\n",pr);
+printf("area of rectangle=%d\n",arr);
+printf("perimeter of circle=%f\n",pc);
+printf("area fo circle=%f",arc);
+getch();
+return 0;
+}
+
